@@ -8,3 +8,4 @@ Useful links
 - [Common errors with serverless](https://medium.com/stacks-on-stacks/serverless-secrets-the-three-things-teams-get-wrong-9fa0410f6e06)
 - [Challenges with serverless](https://medium.com/stacks-on-stacks/the-serverless-learning-curve-74e40d3be85c)
 - [Definición de Serverless Martin Fowler](https://martinfowler.com/articles/serverless.html)
+- [Confussion in the age of Serverless](https://www.youtube.com/watch?v=Y6B3Eqlj9Fw)
