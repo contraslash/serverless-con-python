@@ -9,3 +9,5 @@ Useful links
 - [Challenges with serverless](https://medium.com/stacks-on-stacks/the-serverless-learning-curve-74e40d3be85c)
 - [Definición de Serverless Martin Fowler](https://martinfowler.com/articles/serverless.html)
 - [Confussion in the age of Serverless](https://www.youtube.com/watch?v=Y6B3Eqlj9Fw)
+- [From flask to serverless](https://www.spantree.net/blog/2018/09/04/from-flask-to-serverless.html)
+- [Serverless Python PyOhio](https://www.youtube.com/watch?v=mijpESCucRQ)
