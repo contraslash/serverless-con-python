@@ -1,1 +1,9 @@
 .idea
+
+serverless_env
+
+.chalice
+zappa_settings.json
+
+blog/blog-dev-template-*
+blog/run.sh

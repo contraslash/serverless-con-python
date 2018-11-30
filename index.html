@@ -77,6 +77,13 @@ class: center
     https://medium.com/@keithwhor/rise-of-functions-as-a-service-how-php-set-the-serverless-stage-20-years-ago-ccb560c5f422
 ---
 class: center
+    # Un buzzword mas?
+
+![https://files.gotocon.com/uploads/slides/conference_11/386/original/ServerlessConfusion.pdf](img/hype_cycle.png)
+    Confussion in the age of Serverless - Sam Newman
+
+---
+class: center
 # Entendiendo los *aaS
 ![http://www.paulkerrison.co.uk/random/pizza-as-a-service-2-0](http://www.paulkerrison.co.uk/wp-content/uploads/2017/07/Pizza-as-a-Service-2.0-Paul-Kerrison.jpg)
 http://www.paulkerrison.co.uk/random/pizza-as-a-service-2-0
@@ -84,6 +91,12 @@ http://www.paulkerrison.co.uk/random/pizza-as-a-service-2-0
 class: center
 # PaaS == FaaS?
 
+---
+   # Ventajas
+    - Automatización de infraestructura
+    - Bases de datos descentralizadas
+    - Diseño a prueba de fallos
+    - Crecimiento elástico
 ---
 class: center
     # Puntos críticos
@@ -102,6 +115,17 @@ class: center
     - [Zappa](https://github.com/Miserlou/Zappa)
     - [Chalice](https://github.com/aws/chalice)
     - [Domovoi](https://github.com/kislyuk/domovoi)
+
+---
+    # Alternativas a AWS Lambda, Google Cloud Function , y Azure Functions
+    - [Apache Open Whisk](https://openwhisk.apache.org/)
+    - [Fission](https://github.com/fission/fission)
+    - [Iron Function](https://github.com/iron-io/functions)
+    - [FnProject](https://fnproject.io/)
+    - [Open Lambda](https://open-lambda.org/)
+    - [Kubeless](https://kubeless.io/)
+    - [Open FaaS](https://docs.openfaas.com/)
+
 ---
     # Algunos enlaces útiles
     - [Serverless == NoOps?](https://medium.com/stacks-on-stacks/the-serverless-learning-curve-74e40d3be85c)
@@ -116,7 +140,12 @@ class: center
     - Tiempos de vida y tamaño de memoria
     - Pruebas en máquinas locales
     - Análisis de
-
+---
+    # Generalidades para AWS
+    - Cree un usuario IAM de acceso programático con permisos:
+      - AWSLAmbdaFullAccess
+      - AmazonAPIGatewayAdministrator
+    - Introduzca las credenciales en su archivo ~/.aws/config
 <blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">If your PaaS can efficiently start instances in 20ms that run for half a second, then call it serverless. <a href="https://t.co/S3YzvqFYLR">https://t.co/S3YzvqFYLR</a></p>&mdash; adrian cockcroft (@adrianco) <a href="https://twitter.com/adrianco/status/736553530689998848?ref_src=twsrc%5Etfw">28 de mayo de 2016</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
