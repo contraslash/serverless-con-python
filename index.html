@@ -67,9 +67,18 @@ class: center
 [https://github.com/contraslash/serverless-con-python](https://github.com/contraslash/serverless-con-python)
 ![Qr code](img/qr.png)
 ---
+# Disclaimers
+- Spanglish
+- Curses
+- No estoy vendiendo nada
+- No live coding
+---
+# Quien soy yo?
+![https://media.giphy.com/media/Vw2uzhE0Bwfks/giphy.gif](https://media.giphy.com/media/Vw2uzhE0Bwfks/giphy.gif)
+---
 class: center
 # ¿Qué es serverless?
-![](https://cdn.pixabay.com/photo/2017/12/15/22/25/hamburg-3021820_960_720.jpg)
+![Serverless Logo](https://velopert.com/wp-content/uploads/2018/02/blog-images.003.png)
 ---
 class: center
 # Un poco de historia
@@ -90,64 +99,66 @@ http://www.paulkerrison.co.uk/random/pizza-as-a-service-2-0
 ---
 class: center
 # PaaS == FaaS?
-
+<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">If your PaaS can efficiently start instances in 20ms that run for half a second, then call it serverless. <a href="https://t.co/S3YzvqFYLR">https://t.co/S3YzvqFYLR</a></p>&mdash; adrian cockcroft (@adrianco) <a href="https://twitter.com/adrianco/status/736553530689998848?ref_src=twsrc%5Etfw">28 de mayo de 2016</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
-   # Ventajas
-    - Automatización de infraestructura
-    - Bases de datos descentralizadas
-    - Diseño a prueba de fallos
-    - Crecimiento elástico
+# Ventajas
+- Automatización de infraestructura
+- Bases de datos descentralizadas
+- Diseño a prueba de fallos
+- Crecimiento elástico
 ---
 class: center
-    # Puntos críticos
+# Puntos críticos
 
-    - Empaquetamiento
-    - Pruebas
-    - Despliegue
-    - Análisis de logs
-    - Seguimiento de errores
-    - Monitoreo
+- Empaquetamiento
+- Pruebas
+- Despliegue
+- Análisis de logs
+- Seguimiento de errores
+- Monitoreo
 
-    [Cuando no usar Serverless](https://serverless.com/blog/when-why-not-use-serverless/)
+[Cuando no usar Serverless](https://serverless.com/blog/when-why-not-use-serverless/)
 ---
-   # Serverless con Python
-    - [Serverless](https://github.com/serverless/serverless)
-    - [Zappa](https://github.com/Miserlou/Zappa)
-    - [Chalice](https://github.com/aws/chalice)
-    - [Domovoi](https://github.com/kislyuk/domovoi)
-
----
-    # Alternativas a AWS Lambda, Google Cloud Function , y Azure Functions
-    - [Apache Open Whisk](https://openwhisk.apache.org/)
-    - [Fission](https://github.com/fission/fission)
-    - [Iron Function](https://github.com/iron-io/functions)
-    - [FnProject](https://fnproject.io/)
-    - [Open Lambda](https://open-lambda.org/)
-    - [Kubeless](https://kubeless.io/)
-    - [Open FaaS](https://docs.openfaas.com/)
+# Serverless con Python
+- [Serverless](https://github.com/serverless/serverless)
+- [Zappa](https://github.com/Miserlou/Zappa)
+- [Chalice](https://github.com/aws/chalice)
+- [Domovoi](https://github.com/kislyuk/domovoi)
 
 ---
-    # Algunos enlaces útiles
-    - [Serverless == NoOps?](https://medium.com/stacks-on-stacks/the-serverless-learning-curve-74e40d3be85c)
----
-    # FAQ
-    - [Puedo usarlo con Tensorflow](https://serverless.com/blog/using-tensorflow-serverless-framework-deep-learning-image-recognition/)
-    - [Puedo usarlo para IoT](https://medium.com/stacks-on-stacks/the-economics-of-serverless-for-iot-e3b82a0f66b7)
-    - [Como lo pruebo lambda localmente](https://github.com/lambci/docker-lambda)
+# Alternativas a AWS Lambda, Google Cloud Function , y Azure Functions
+- [Apache Open Whisk](https://openwhisk.apache.org/)
+- [Fission](https://github.com/fission/fission)
+- [Iron Function](https://github.com/iron-io/functions)
+- [FnProject](https://fnproject.io/)
+- [Open Lambda](https://open-lambda.org/)
+- [Kubeless](https://kubeless.io/)
+- [Open FaaS](https://docs.openfaas.com/)
 
 ---
-    # Limitaciones
-    - Tiempos de vida y tamaño de memoria
-    - Pruebas en máquinas locales
-    - Análisis de
+# Algunos enlaces útiles
+- [Serverless == NoOps?](https://medium.com/stacks-on-stacks/the-serverless-learning-curve-74e40d3be85c)
+---
+# FAQ
+- [Puedo usarlo con Tensorflow](https://serverless.com/blog/using-tensorflow-serverless-framework-deep-learning-image-recognition/)
+- [Puedo usarlo para IoT](https://medium.com/stacks-on-stacks/the-economics-of-serverless-for-iot-e3b82a0f66b7)
+- [Como lo pruebo lambda localmente](https://github.com/lambci/docker-lambda)
+
+---
+# Limitaciones
+- Tiempos de vida y tamaño de memoria
+- Pruebas en máquinas locales
+---
+# Show me the code
+![https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif](https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif)
 ---
     # Generalidades para AWS
     - Cree un usuario IAM de acceso programático con permisos:
       - AWSLAmbdaFullAccess
       - AmazonAPIGatewayAdministrator
     - Introduzca las credenciales en su archivo ~/.aws/config
-<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">If your PaaS can efficiently start instances in 20ms that run for half a second, then call it serverless. <a href="https://t.co/S3YzvqFYLR">https://t.co/S3YzvqFYLR</a></p>&mdash; adrian cockcroft (@adrianco) <a href="https://twitter.com/adrianco/status/736553530689998848?ref_src=twsrc%5Etfw">28 de mayo de 2016</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 ---

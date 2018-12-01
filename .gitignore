@@ -7,3 +7,8 @@ zappa_settings.json
 
 blog/blog-dev-template-*
 blog/run.sh
+
+front
+front/node_modules
+front/amplify
+front/dist
